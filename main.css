@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, 
+section h2 {
+    font-family: 'Bungee', cursive;
+}
+
+header {
+    padding: 16px 0;
+    background-color: red;
+    Color: antiquewhite
+    
+}
+
+header h1
+section h2 
+section h3 {
+    font-family: 'Bungee', cursive;
+}
+
+body, input,  {
+    font-family: 'Roboto', sans-serif;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+    font-family: 'Bungee', cursive;
+}
+
+header nav li a {
+    color: antiquewhite;
+    text-decoration: none;
+    font-family: 'Bungee', cursive;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img{
+    height: 78px;
+}
+
+.brands-list li{
+    display: inline;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+section p {
+    margin-bottom: 8px;
+}
+
+section img {
+    margin-bottom: 16px;
+
+}
+
+.social-links img {
+    height: 50px;
+}
+
+.social-links {
+    text-decoration: none;
+}
+
+#contact .container {
+    display:  block;
+
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form button
+{
+    display:block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button{
+    background-color: red;
+    color: beige;
+    border: none;
+}
+
+form button:hover {
+    background-color: rgb(206, 6, 6); 
+}
+
+footer {
+    background-color: red;
+    color: white;
+    padding: 16 px 0;
+    text-decoration: none;
+}
